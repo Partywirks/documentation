@@ -1,0 +1,31 @@
+/*css for thumbsb to larger images*/
+
+.wrapper {
+	width: 700px;
+	position: relative;
+}
+.wrapper img {
+	border: 1px solid #000;
+}
+.full-image {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.thumbnails {
+	width: 150px;
+	float: right;
+}
+
+.wrapper a {
+	margin: 2px;
+}
+.wrapper a:hover + div, .wrapper a:focus + div, .wrapper a:active + div {
+	display: block;
+}
+.description {
+	width:95%;
+	padding:5px;
+	background-color:#DDDDDD;
+}
